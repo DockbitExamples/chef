@@ -1,0 +1,5 @@
+name 'starter'
+description 'A basic starter cookbook'
+version '1.0.0'
+maintainer 'Dockbit, Inc.'
+maintainer_email 'hello@dockbit.com'
