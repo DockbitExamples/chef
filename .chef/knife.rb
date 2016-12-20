@@ -3,7 +3,7 @@
 current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
-node_name                "dockbit"
+node_name                "dockbitdemo"
 validation_client_name   "dockbit-validator"
 client_key               "#{ENV['HOME']}/.chef/client.pem"
 validation_key           "#{current_dir}/dockbit-validator.pem"
