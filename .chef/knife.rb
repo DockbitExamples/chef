@@ -4,8 +4,8 @@ current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
 node_name                "dockbitdemo"
-validation_client_name   "dockbit-validator"
+validation_client_name   "dockbitdemo-validator"
 client_key               "#{ENV['HOME']}/.chef/client.pem"
-validation_key           "#{current_dir}/dockbit-validator.pem"
+validation_key           "#{current_dir}/dockbitdemo-validator.pem"
 chef_server_url          "https://api.chef.io/organizations/dockbitdemo"
 cookbook_path            ["#{current_dir}/../cookbooks"]
